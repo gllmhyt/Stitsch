@@ -25,12 +25,12 @@ select.custom,
 General & Presets */
 body {
     font: 20px/1.5 "Fira Sans", "Droid Sans", "Open Sans", Verdana, arial, sans-serif;
-    background: url(/assets/img/design/noise.png) repeat #630000;
+    background: url(/assets/img/design/noise.png) repeat #E0E0E0;
     color: rgba(0, 0, 0, 0.8);
     margin: 0;
 }
 a {
-    color: #346EC5;
+    color: #C90914;
     transition: all .2s;
     cursor: pointer;
     text-decoration: none;
