@@ -27,7 +27,7 @@ body {
     font-family: "Fira Sans", "Droid Sans", "Open Sans", Verdana, arial, sans-serif;
     font-size: 20px;
     line-height: 1.5;
-    background: url(/assets/img/design/noise.png) repeat #18223A;
+    background: url(/assets/img/design/noise.png) repeat #E0E0E0;
     color: rgba(0, 0, 0, 0.8);
     margin: 0;
 }
