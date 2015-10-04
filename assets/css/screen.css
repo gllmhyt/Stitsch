@@ -206,7 +206,6 @@ Head & Navigation */
             transform: translate(31px, -2.2em);
 }
 #nav {
-    font-family: "Bebas Neue";
     display: inline-block;
     position: relative;
     float: right;
