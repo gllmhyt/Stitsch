@@ -639,7 +639,7 @@ header.big.shrunk {
     padding: 10em 10% 6.5em;
 }
 header.big.default-cover {
-    background: url(/assets/img/design/default_banner.png) repeat center / auto #DC0000;
+    background: url(/assets/img/design/noise.png) repeat center / auto #DC0000;
     box-shadow: none;
 }
 .home-template header.big,
