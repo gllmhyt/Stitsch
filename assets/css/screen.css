@@ -29,7 +29,7 @@ body {
     font-family: "Fira Sans", "Droid Sans", "Open Sans", Verdana, arial, sans-serif;
     font-size: 20px;
     line-height: 1.5;
-    background: url(/assets/img/design/noise.png) repeat #E0E0E0, url(/assets/img/design/flag.svg) no-repeat 100%;
+    background: url(/assets/img/design/noise.png) repeat #E0E0E0;
     color: rgba(0, 0, 0, 0.8);
     margin: 0;
 }
@@ -638,7 +638,7 @@ header.big.shrunk {
     padding: 10em 10% 6.5em;
 }
 header.big.default-cover {
-    background: url(/assets/img/design/noise.png) repeat center / auto #DC0000;
+    background: url(/assets/img/design/noise.png) repeat center / auto, url(/assets/img/design/flag.svg) no-repeat center / 100%;
     box-shadow: none;
 }
 .home-template header.big,
