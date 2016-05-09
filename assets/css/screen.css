@@ -3,14 +3,14 @@ Fonts */
 @import url('/assets/fonts/Fira/fira.css');
 @import url('/assets/fonts/Merriweather/merriweather.css');
 @import url('/assets/fonts/openiconic/css/open-iconic.css');
-@import url('/assets/fonts/charissil/charissil.css');
+@import url('/assets/fonts/bebasneue/bebasneue.css');
 @import url('/assets/fonts/Glegoo/glegoo.css');
 input,
 textarea,
 .top,
 select.custom,
 .smalltitle {
-    font-family: "Fira Sans", "Open Sans", "Cantarell", "Droid Sans", Verdana, arial, sans-serif;
+    font-family: "Fira Sans", "Droid Sans", "Open Sans", Verdana, arial, sans-serif;
 }
 
 #post p,
@@ -20,7 +20,7 @@ select.custom,
 .post-excerpt,
 .author-bio,
 .meta-description {
-    font-family: "Fira Sans", "Merriweather", "Bitstream Charter", Georgia, "Charis SIL", serif;
+    font-family: "Fira Sans", "Merriweather", "Bitstream Charter", Georgia, serif;
 }
 
 /* ----------------------------------------
@@ -169,8 +169,6 @@ Head & Navigation */
     text-align: center;
 }
 #topbar {
-    font-family: "Glegoo";
-    font-weight: bold;
     position: absolute;
         left: 0;
         right: 0;
