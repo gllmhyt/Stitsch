@@ -3,7 +3,7 @@ Fonts */
 @import url('/assets/fonts/Fira/fira.css');
 @import url('/assets/fonts/Merriweather/merriweather.css');
 @import url('/assets/fonts/openiconic/css/open-iconic.css');
-@import url('/assets/fonts/Glegoo/glegoo.css');
+@import url('/assets/fonts/bebasneue/bebaseneue.css');
 input,
 textarea,
 .top,
@@ -86,9 +86,8 @@ section.dark {
 }
 header.big > *:not(.meta),
 header.big + section > * > * {
-    font-family: "Glegoo";
+    font-family: "Bebas Neue";
     font-weight: bold;
-    text-transform: uppercase;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
