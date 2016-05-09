@@ -20,7 +20,7 @@ select.custom,
 .post-excerpt,
 .author-bio,
 .meta-description {
-    font-family: "Merriweather", "Charis SIL", "Bitstream Charter", Georgia, "Fira Sans", serif;
+    font-family: "Fira Sans", "Merriweather", "Bitstream Charter", Georgia, "Charis SIL", serif;
 }
 
 /* ----------------------------------------
@@ -87,7 +87,7 @@ section.dark {
 }
 header.big > *:not(.meta),
 header.big + section > * > * {
-    font-family: "Glegoo";
+    font-family: "Bebas Neue";
     font-weight: bold;
     max-width: 800px;
     margin-left: auto;
@@ -169,6 +169,8 @@ Head & Navigation */
     text-align: center;
 }
 #topbar {
+    font-family: "Bebas Neue";
+    font-weight: bold;
     position: absolute;
         left: 0;
         right: 0;
