@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Glegoo';
+    src: url('Glegoo-Bold.woff2') format('woff2'),
+         url('Glegoo-Bold.woff') format('woff'),
+         url('Glegoo-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Glegoo';
+    src: url('Glegoo-Regular.woff2') format('woff2'),
+         url('Glegoo-Regular.woff') format('woff'),
+         url('Glegoo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
