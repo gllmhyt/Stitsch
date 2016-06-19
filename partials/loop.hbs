@@ -5,7 +5,7 @@
     {{#foreach posts}}
         {{#if featured}}
         <section class="recent card {{post_class}} {{#if @even}}even{{else}}odd{{/if}}">
-            <span class="featured-label">Sélection <span class="oi" data-glyph="star"></span></span>
+            <span class="featured-label">Sélection <span class="fa fa-star-half-o" aria-hidden="true"></span></span>
             <a href="{{url}}">
                 <h2 class="post-title">{{{title}}}</h2>
                 <div class="post-excerpt">
@@ -24,7 +24,7 @@
                 {{/author}}
                 <span>{{date format="DD MMMM YYYY"}}</span>
                 {{#if tags}}
-                <span class="tags"><span class="oi" data-glyph="tags"></span> {{tags}}</span>
+                <span class="tags"><span class="fa fa-tags" aria-hidden="true"></span> {{tags}}</span>
                 {{/if}}
             </footer>
         </section>
@@ -55,7 +55,7 @@
 			{{/is}} 
 			<span>{{date format="DD MMMM YYYY"}}</span>
             {{#if tags}}
-            <span class="tags"><span class="oi" data-glyph="tags"></span> {{tags}}</span>
+            <span class="tags"><span class="fa fa-tags" aria-hidden="true"></span> {{tags}}</span>
             {{/if}}
 		</footer>
 	</section>
