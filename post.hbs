@@ -25,15 +25,4 @@
 	</div>
 </section>
 
-<footer class="post-footer">
-{{!-- Email subscribe form at the bottom of the page --}}
-            {{#if @labs.subscribers}}
-            <section class="gh-subscribe">
-                <h3 class="gh-subscribe-title">Abonnez-vous à l’{{@blog.title}}</h3>
-                <p>Recevez nos articles directement dans votre boite mail.</p>
-                {{subscribe_form placeholder="Votre adresse mail"}}
-                <span class="gh-subscribe-rss">or subscribe <a href="//{{@blog.url}}/rss/">via RSS</a></span>
-            </section>
-{{/if}}
-</footer>
 {{/post}}
