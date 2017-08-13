@@ -251,7 +251,7 @@ Head & Navigation */
     overflow: hidden;
     pointer-events: none;
 }
-#nav .subnav-title .oi {
+#nav .subnav-title .fa {
     position: absolute;
         left: 0;
         right: 0;
@@ -731,6 +731,12 @@ iframe {
 }
 #post a img {
     border: 0 none;
+}
+.post figcaption {
+    font-style: italic;
+    font-size: 85%;
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
 }
 blockquote {
     font-style: italic;
