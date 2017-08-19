@@ -33,7 +33,7 @@ body {
     margin: 0;
 }
 a {
-    color: #2196F3;
+    color: #F44336;
     -webkit-transition: all .2s;
             transition: all .2s;
     cursor: pointer;
@@ -184,7 +184,7 @@ Head & Navigation */
             transition: background-color .3s;
 }
 #topbar.scrolled {
-    background-color: #37474F;
+    background-color: #F44336;
     box-shadow: 0 -1px rgba(0, 0, 0, 0.12) inset;
 }
 #head span {
@@ -548,7 +548,7 @@ header .meta {
     color: #FFF;
 }
 header .meta a:not(.info) {
-    color: #4F7ABC;
+    color: #F44336;
 }
 .post-meta .tags a {
     text-transform: none;
@@ -556,7 +556,7 @@ header .meta a:not(.info) {
     font-style: italic;
 }
 header .post-meta .tags a {
-    color: #2196F3;
+    color: #F44336;
 }
 .meta .fa,
 .post-meta .fa {
@@ -575,7 +575,7 @@ header.big .meta .fa {
     margin-right: 0.2em;
 }
 header.big .tags a {
-    color: #2196F3;
+    color: #F44336;
 }
 header.big .meta {
     margin: 1em 0 0;
