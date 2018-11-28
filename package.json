@@ -13,6 +13,10 @@
     },
     "homepage": "https://github.com/Nildeala/Stitch-Blue",
     "keywords": [
-        "ghost-theme",
-    ]
+        "ghost-theme"
+    ],
+    "screenshots": {
+    "desktop": "assets/screenshot-desktop.png",
+    "mobile": "assets/screenshot-mobile.png"
+    }
 }
