@@ -7,11 +7,17 @@ A nice and elegant theme for Ghost, inspired by the color Stitch blue.
 
 ## Some screenshots
 
-* Homepage without a cover
-![Screenshot](screenshot-temp.png)
+* Homepage on desktop
+![Screenshot](assets/screenshot-desktop.png)
 
-* Homepage with a random snowy mountains cover
-![Screenshot](screenshot-temp-2.png)
+* Some article on desktop
+![Screenshot](assets/screenshot-desktop-article.png)
+
+* Homepage on mobile
+![Screenshot](assets/screenshot-mobile.png)
+
+* Some article on mobile
+![Screenshot](assets/screenshot-mobile-article.png)
 
 ## Search engine
 
