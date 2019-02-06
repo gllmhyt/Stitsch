@@ -3232,20 +3232,25 @@ lunr.QueryParser.parseBoost = function (parser) {
 		// console.log('ghostHunter: grabAndIndex');
 		this.blogData = {};
 		this.latestPost = 0;
+		var url = "/ghost/api/v2/content/posts/?key=" + ghosthunter_key + "&limit=all&include=tags";
+
 		var params = {
 			limit: "all",
 			include: "tags",
 		};
 		if ( this.includebodysearch ){
 			params.formats=["plaintext"]
+			url += "&formats=plaintext"
 		} else {
 			params.formats=[""]
 		}
 		if ( this.includepages ){
 			params.filter="(page:true,page:false)";
+			url += "&filter=page:true"
 		}
 		var me = this;
-		$.get(ghost.url.api('posts',params)).done(function(data){
+		//$.get(ghost.url.api('posts',params)).done(function(data){
+		$.get(url).done(function(data){
 			var idxSrc = data.posts;
 			// console.log("ghostHunter: indexing all posts")
 			me.index = lunr(function () {
@@ -3389,8 +3394,14 @@ lunr.QueryParser.parseBoost = function (parser) {
 					filter: "updated_at:>\'" + this.latestPost.replace(/\..*/, "").replace(/T/, " ") + "\'",
 					fields: "id"
 				};
+
+				var url = "/ghost/api/v2/content/posts/?key=" +
+				ghosthunter_key + "&limit=all&fields=id" + "&filter" +
+				"updated_at:>\'" + this.latestPost.replace(/\..*/, "").replace(/T/, " ") + "\'";
+
 				var me = this;
-				$.get(ghost.url.api('posts', params)).done(function(data){
+				//$.get(ghost.url.api('posts', params)).done(function(data){
+				$.get(url).done(function(data){
 					if (data.posts.length > 0) {
 						grabAndIndex.call(me);
 					} else {
