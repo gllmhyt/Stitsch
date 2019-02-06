@@ -23,6 +23,7 @@ $("#search-field").ghostHunter({
     includepages 	: true,
     onKeyUp 		: true,
     onPageLoad		: true,
+    includebodysearch   : true,
     info_template	: "<p>{{amount}} article(s) trouvé(s)</p>",
     result_template	: "<a id='gh-{{ref}}' class='gh-search-item' href='{{link}}'><p>{{title}}</p></a>"
 });
