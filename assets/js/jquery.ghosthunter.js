@@ -3246,7 +3246,6 @@ lunr.QueryParser.parseBoost = function (parser) {
 		}
 		if ( this.includepages ){
 			params.filter="(page:true,page:false)";
-			url += "&filter=page:true"
 		}
 		var me = this;
 		//$.get(ghost.url.api('posts',params)).done(function(data){
