@@ -2552,6 +2552,51 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .fa-biometric:before {
   content: "\f32b";
 }
+.fa-syncthing:before {
+  content: "\f311";
+}
+.fa-inkscape:before {
+  content: "\f312";
+}
+.fa-matrix-org:before {
+  content: "\f313";
+}
+.fa-pixelfed:before {
+  content: "\f314";
+}
+.fa-bootstrap:before {
+  content: "\f315";
+}
+.fa-dev-to:before {
+  content: "\f316";
+}
+.fa-hashnode:before {
+  content: "\f317";
+}
+.fa-jirafeau:before {
+  content: "\f318";
+}
+.fa-emby:before {
+  content: "\f319";
+}
+.fa-wikidata:before {
+  content: "\f31a";
+}
+.fa-gimp:before {
+  content: "\f31b";
+}
+.fa-c:before {
+  content: "\f31c";
+}
+.fa-digitalocean:before {
+  content: "\f31d";
+}
+.fa-att:before {
+  content: "\f31e";
+}
+.fa-gitea:before {
+  content: "\f31f";
+}
 .sr-only {
   position: absolute;
   width: 1px;
